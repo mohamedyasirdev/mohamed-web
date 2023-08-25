@@ -17,32 +17,31 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>معلومات عني</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        .أعمل علي تطوير وأطلاق البراندات علي الانترنت من خلال بناء{" "}
+        <span className="font-medium">واجهات مستخدم</span> جميلة بافكار أبداعية
+        <br />
+        أنا ملتزم بإنشاء مواقع ويب عالية الجودة تجذب الزوار وتساعدهم على تحقيق أهدافهم{" "}
+        <span className="font-medium"></span> {" "}
+        <span className="italic"></span>
+        <span className="underline"></span> 
+        {" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        {" "}
+        <span className="font-medium"> </span> 
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      ..🖐️ <span className="italic" >يمكنني إنشاء مواقع ويب تعكس علامتك التجارية وتبرزك من بين الحشود  </span>
+      <br />
+        {" "}
+        <span className="font-medium"></span>
+        {" "}
+        <span className="font-medium"></span>
+       لا تردد في الاتصال بي , سأكون سعيد بمناقشة مشروعك معك وأطلاق نسخ قوية للعالم 
       </p>
     </motion.section>
   );

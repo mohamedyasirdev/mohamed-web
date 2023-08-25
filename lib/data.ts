@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaCartPlus, FaDesktop, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Information Technology at a University Of Kassala",
+    location: "Sudan, Kassala",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I Am Studying The Development And Support Of Computer Systems On The Internet. I Started My Academic Career At The Beginning Of 2021.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - Now",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer",
+    location: "Sudan, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I Work As A Web Developer To Create Websites That Serve The Client And Help Brands Appear On The Internet.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - Now",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "UI & User Exper..",
+    location: "Sudan, Kassala",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I Work To Design The Best User Experience To Ensure The Ease And Beauty Of The Site, Before Diving Into Writing The Website's Code.",
+    icon: React.createElement(FaDesktop),
+    date: "2022 - Now",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "eLana Shop",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "We launched the first version this year, which is a brand that specializes in skin care products.",
+    tags: ["Skitch", "UI&UX", "Design Code", "e-Commerce", "Website"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Design Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "With the new challenges facing projects when launching them, we found a radical solution to launch random and not beautiful versions of non-specialists.",
+    tags: ["nqo", "Use Buw", "Api", "e-commerce", "website"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Nova Plus",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "It is a completely free online community that was built with love to launch a beautiful replica, with the aim of reaching the maximum level of user comfort.",
+    tags: ["js",  "SQL", "Development", "Design"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -87,21 +87,18 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "JS",
+  "esbuild",
+  "Command Line",
+  "nueo X",
+  "pug.js Engine",
+  "Gulp.js",
+  "EX Bootstrap",
+  "EX Sass",
+  "Codesign",
+  "Jest",
+  "MD DaisyUl",
+  "MD Design",
+  "Basic Canva",
+  "Basic illustrator",
 ] as const;
